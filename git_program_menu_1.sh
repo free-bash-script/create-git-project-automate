@@ -11,7 +11,7 @@ echo -n 'Please Enter "Absolute"  Git Address: '
 echo -n 'Please Enter Git Name Without .git: '
  read gitname
        
-hookaddress='curl http://192.168.1.126:8080/git/notifyCommit?url=ssh://root@192.168.1.128'
+hookaddress='curl http://Jenkins-Server-IP:8080/git/notifyCommit?url=ssh://root@Git-Server-IP'
 
 ########################################################################
 
